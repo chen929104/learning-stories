@@ -1,0 +1,15 @@
+{
+  "name": "learning-stories",
+  "version": "1.0.0",
+  "description": "记录每天的学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "frontend"
+  ],
+  "author": "chen",
+  "license": "MIT"
+}
