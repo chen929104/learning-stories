@@ -7,7 +7,7 @@ export const equalArr = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
 export const negativeArr = [-1, 0, 5, -10, 20, 13, -7, 3, 2, -3];
 export const negativeArrSorted = [-10, -7, -3, -1, 0, 2, 3, 5, 13, 20];
 
-test('bubbleSort', () => {
+test('selectionSort', () => {
   expect(selectionSort([])).toEqual([]);
   expect(selectionSort([1])).toEqual([1]);
   expect(selectionSort([1, 2])).toEqual([1, 2]);
