@@ -1,5 +1,4 @@
-const selectionSort = (arr) => {
-  const array = arr;
+const selectionSort = (array) => {
   for (let i = 0; i < array.length; i += 1) {
     let min = i;
     for (let j = i; j < array.length; j += 1) {
