@@ -4,6 +4,10 @@
 
 ## 算法
 
+- **javascript**
+- Number
+- [IEEE754](src/javascript/number/IEEE754)
+
 - **排序**
 - [冒泡排序](src/algorithms/sort/bubble-sort)
 - [选择排序](src/algorithms/sort/selection-sort)
