@@ -4,7 +4,7 @@
  * 基于数组的栈结构
  */
 
-class Stack {
+class StackArray {
   constructor() {
     this.stack = [];
   }
@@ -51,7 +51,9 @@ class Stack {
    *  清空栈
    */
   clear() {
-    this.stack = [];
+    while (!this.isEmpty()) {
+      this.pop();
+    }
   }
 
   /**
@@ -61,5 +63,13 @@ class Stack {
   size() {
     return this.stack.length;
   }
+
+  /**
+   * toString 方法
+   * @returns string
+   */
+  toString() {
+    return this.stack.toString();
+  }
 }
-export default Stack;
+export default StackArray;
