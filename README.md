@@ -2,14 +2,11 @@
 
 这个仓库记录了我学习前端的过程,内容可能比较广泛。
 
-## 算法
-
-- **javascript**
-- Number
-- [IEEE754](src/javascript/number/IEEE754)
-
-- **排序**
-- [冒泡排序](src/algorithms/sort/bubble-sort)
-- [选择排序](src/algorithms/sort/selection-sort)
-- [插入排序](src/algorithms/sort/insertion-sort)
-- [堆排序](src/algorithms/sort/heap-sort)
+- [算法](src/algorithms)
+- [css](src/css)
+- [数据结构](src/data-structures)
+- [设计模式](src/design-pattern)
+- [html](src/html)
+- [javascript](src/javascript)
+- [网络](src/network)
+- [react](src/react)

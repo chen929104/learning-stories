@@ -1,13 +1,13 @@
-import StackArray from './stack-array';
+import StackObject from './stack-object';
 
 describe('Stack', () => {
   it('should create empty stack', () => {
-    const stack = new StackArray();
+    const stack = new StackObject();
     expect(stack).not.toBeUndefined();
   });
 
   it('should stack data to stack', () => {
-    const stack = new StackArray();
+    const stack = new StackObject();
 
     stack.push(1);
     stack.push(2);
@@ -16,7 +16,7 @@ describe('Stack', () => {
   });
 
   it('should peek data from stack', () => {
-    const stack = new StackArray();
+    const stack = new StackObject();
 
     expect(stack.peek()).toBeUndefined();
 
@@ -28,7 +28,7 @@ describe('Stack', () => {
   });
 
   it('should check if stack is empty', () => {
-    const stack = new StackArray();
+    const stack = new StackObject();
 
     expect(stack.isEmpty()).toBe(true);
 
@@ -38,7 +38,7 @@ describe('Stack', () => {
   });
 
   it('should pop data from stack', () => {
-    const stack = new StackArray();
+    const stack = new StackObject();
 
     stack.push(1);
     stack.push(2);
@@ -50,7 +50,7 @@ describe('Stack', () => {
   });
 
   it('should be possible to push/pop objects', () => {
-    const stack = new StackArray();
+    const stack = new StackObject();
 
     stack.push({ value: 'test1', key: 'key1' });
     stack.push({ value: 'test2', key: 'key2' });
@@ -59,7 +59,7 @@ describe('Stack', () => {
     expect(stack.pop().value).toBe('test1');
   });
   it('should get stack size', () => {
-    const stack = new StackArray();
+    const stack = new StackObject();
 
     stack.push(1);
     stack.push(2);
@@ -67,7 +67,7 @@ describe('Stack', () => {
     expect(stack.size()).toBe(2);
   });
   it('should get stack clean', () => {
-    const stack = new StackArray();
+    const stack = new StackObject();
 
     stack.push(1);
     stack.push(2);

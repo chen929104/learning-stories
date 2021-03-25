@@ -12,5 +12,6 @@
     "arrow-body-style": "off",
     "no-loop-func": "off",
     "no-param-reassign": "off"
+    
   }
 }
