@@ -1,4 +1,4 @@
 # JavaScript
 
-- [number](src/javascript/number)
-- [promise](src/javascript/promise)
+- [number](number)
+- [promise](promise)
