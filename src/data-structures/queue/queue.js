@@ -44,6 +44,10 @@ class Queue {
     return result;
   }
 
+  /**
+   * 清空队列
+   * 当队列不为空时就出队
+   */
   clean() {
     while (!this.isEmpty()) {
       this.dequeue();
