@@ -4,7 +4,7 @@
  *  next指向下一个节点
  */
 export default class LinkedListNode {
-  constructor(value, next = null) {
+  constructor(value, next = undefined) {
     this.value = value;
     this.next = next;
   }
