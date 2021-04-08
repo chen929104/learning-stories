@@ -1,5 +1,7 @@
+/* eslint-disable no-extend-native */
+/* eslint-disable func-names */
+
 // 模拟数组插入元素的操作
-// eslint-disable-next-line no-extend-native
 Array.prototype.add = function (element, index) {
   if (index < 0 || index > this.length) {
     return undefined;
@@ -12,7 +14,6 @@ Array.prototype.add = function (element, index) {
 };
 
 // 模拟数组移除元素操作
-// eslint-disable-next-line no-extend-native
 Array.prototype.delete = function (index) {
   if (index < 0 || index > this.length) {
     return undefined;
